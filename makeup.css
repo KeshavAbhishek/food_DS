@@ -132,6 +132,8 @@ ul li a{
 
 .ourServiceDetailsContentHeartPara{
     border-radius: 15px;
+    text-align: justify !important;
+    padding: 15px !important;
 }
 
 .ourServiceDetailsContentHeartTitle{
