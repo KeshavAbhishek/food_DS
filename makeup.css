@@ -1,0 +1,517 @@
+*{
+    padding: 0;
+    margin: 0;
+    -webkit-user-select: none;
+    user-select: none;
+    -webkit-user-drag: none;
+    scroll-behavior: smooth;
+}
+
+span{
+    cursor: text;
+}
+
+img{
+    cursor: pointer;
+}
+
+#navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background: linear-gradient(to right, red, crimson, crimson, red);
+    position: relative;
+}
+
+ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+ul li{
+    list-style: none;
+    background: rgba(0, 0, 0, 0.8);
+    border-radius: 15px;
+    padding: 1.25% 3%;
+}
+
+ul li a{
+    color: white;
+}
+
+ul li:hover{
+    background: rgba(220, 20, 60, 0.8);
+    cursor: pointer;
+    transition: background 0.3s ease-in-out;
+}
+
+ul li a{
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 2vw;
+}
+
+#foodLogo{
+    width: 10vw;
+    padding: 1%;
+}
+
+#menuLogo{
+    width: 8vw;
+    height: 8vw;
+    background: transparent !important;
+    background: linear-gradient(45deg, crimson, red);
+    cursor: pointer;
+    position: relative;
+    display: none;
+}
+
+.bars{
+    width: 50%;
+    height: 5%;
+    background-color: white;
+    border-radius: 5px;
+    position: absolute;
+    left: 25%;
+    top: 50%;
+}
+
+.bars:nth-child(1){
+    top: 33%;
+}
+
+.bars:nth-child(3){
+    top: 66%;
+}
+
+.bars:nth-child(4){
+    top: 33%;
+}
+
+.bars:nth-child(6){
+    top: 66%;
+}
+
+
+
+#siteDescription{
+    width: 100%;
+    height: 50vh;
+    background-image: url("images/bg.jpg");
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+#orderNow{
+    margin-bottom: 1%;
+    background: linear-gradient(to right,red,orange,crimson);
+    font-size: 3pc;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 1% 5%;
+    color: white;
+    font-weight: 600;
+    border: 0;
+    outline: 0;
+    border-radius: 50px;
+    cursor: pointer;
+    position: absolute;
+    bottom: 5%;
+}
+
+.ourServiceDetailsContentHeart{
+    margin-bottom: 5%;
+}
+
+.ourServiceDetailsContentHeartPara{
+    border-radius: 15px;
+}
+
+.ourServiceDetailsContentHeartTitle{
+    margin-bottom: 5%;
+}
+
+.ourServiceDetailsContentHeartImage{
+    margin-bottom: 5%;
+}
+
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+
+#ourServicesDetails{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+#ourServiceDetailsHeading{
+    width: 100%;
+    font-size: 5vw;
+    font-weight: bolder;
+    text-align: center;
+    margin: 1% 0;
+}
+
+#ourServiceDetailsContent{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.ourServiceDetailsContentHeart{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.ourServiceDetailsContentHeartImage{
+    width: 30vw;
+    border-radius: 15px;
+}
+
+.ourServiceDetailsContentHeartTitle{
+    font-size: 3vw;
+    font-weight: bolder;
+    margin-top: 2%;
+    text-decoration: underline solid red;
+}
+
+.ourServiceDetailsContentHeartPara{
+    margin: 3% 5%;
+    font-size: 1.8vw;
+    text-align: center;
+    background: linear-gradient(to right, red, crimson, crimson, red);
+    color: white;
+    font-weight: 600;
+    padding: 1.5%;
+}
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+
+#ourClientsDetails{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+#ourClientsDetailsHeart{
+    width: 100%;
+    height: 80vh;
+    background-image: url('images/clients.jpg');
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-position: center;
+    background-size: cover;
+}
+
+#ourClientsDetailsHeading{
+    width: 100%;
+    font-size: 5vw;
+    font-weight: bolder;
+    text-align: center;
+    margin: 1% 0;
+}
+
+.ourClientsDetailsHeartImage{
+    width: 15%;
+}
+
+.ourClientsDetailsHeartImage:nth-child(3){
+    width: 25%;
+}
+
+.ourClientsDetailsHeartImage:nth-child(4){
+    width: 22%;
+}
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+#feedbackDetailsHeading{
+    width: 100%;
+    font-size: 5vw;
+    font-weight: bolder;
+    text-align: center;
+    margin: 1% 0;
+}
+
+#feebackDetails{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+#feedbackForm{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    background-image: url("images/contact.jpg");
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+}
+
+.textBoxes{
+    padding: 2%;
+    font-size: 2vw;
+    width: 40vw;
+    margin: 1% 0;
+    outline-color: white;
+    background: transparent;
+    border: 1px solid black;
+    color: black;
+    border-radius: 20px;
+}
+
+.textBoxes::placeholder{
+    color: black;
+}
+
+.textBoxes:focus::placeholder{
+    color: black;
+}
+
+.textBoxes:focus{
+    background: white;
+    width: 50vw;
+    transition: all 0.8s ease;
+}
+
+.textArea{
+    padding: 2%;
+    font-size: 2vw;
+    width: 40vw;
+    margin: 1% 0;
+    outline-color: white;
+    background: transparent;
+    border: 1px solid black;
+    color: black;
+    height: 10vh;
+    resize: none;
+    border-radius: 20px;
+}
+
+.textArea::placeholder{
+    color: black;
+}
+
+.textArea:focus::placeholder{
+    color: black;
+}
+
+.textArea:focus{
+    background: white;
+    width: 50vw;
+    transition: all 0.8s ease;
+}
+
+#submit{
+    width: 20vw;
+    padding: 1%;
+    font-weight: bolder;
+    font-size: 2vw;
+    border-radius: 20px;
+    border: 0;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    background: linear-gradient(135deg,rgb(192, 1, 192),rgb(71, 58, 247));
+    margin-bottom: 1%;
+    cursor: pointer;
+}
+
+@media only screen and (max-width:700px){
+    #ourServiceDetailsContent{
+        flex-direction: column;
+    }
+
+    /* .ourServiceDetailsContentHeartPara{
+        width: 50vw;
+    } */
+
+    .ourServiceDetailsContentHeartImage{
+        width: 80vw;
+    }
+
+    .ourServiceDetailsContentHeartTitle{
+        font-size: 2pc;
+    }
+
+    .ourServiceDetailsContentHeartPara{
+        font-size: 1.25pc;
+    }
+
+    .ourServiceDetailsContentHeart span{
+        width: 80vw;
+        text-align: center;
+    }
+
+    #ourServicesDetails #ourServiceDetailsHeading,#ourClientsDetailsHeading,#feedbackDetailsHeading{
+        font-size: 3pc;
+        margin: 5% 0;
+    }
+
+    #feedbackForm input{
+        width: 70%;
+    }
+    #feedbackForm textarea{
+        width: 70%;
+    }
+    #feedbackForm button{
+        width: 50%;
+    }
+
+    #ourClientsDetailsHeading{
+        margin-top: 5%;
+    }
+
+
+    #ourClientsDetailsHeart{
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    nav{
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    ul{
+        justify-content: unset;
+    }
+
+    ul li{
+        background: none;
+        border-radius: none;
+        padding: none;
+    }
+
+    ul li a:hover{
+        color: gold;
+        font-weight: bolder;
+    }
+
+    #siteDescription{
+        position: relative;
+    }
+
+    #foodLogo{
+        width: 20vw;
+        margin-bottom: 1.25%;
+    }
+
+    #siteDescription{
+        height: 25vh;
+    }
+
+    /* @keyframes heightManagers {
+        0%{
+            height: 0px;
+        }
+        100%{
+            height: 25vh;
+        }
+    }
+
+    .animateMenu{
+        animation: heightManagers 2s ease-in-out infinite;
+        animation-direction: alternate;
+    } */
+
+    ul{
+        position: absolute;
+        right: 0;
+        top: 0;
+        width: 100%;
+        height: 0vh;
+        background: linear-gradient(to right, red, crimson, crimson, red);
+        overflow: hidden;
+        flex-direction: column;
+    }
+
+    ul li a{
+        font-size: 2pc;
+    }
+
+    #menuLogo{
+        display: inherit;
+        position: absolute;
+        right: 0 !important;
+        top: 0 !important;
+        width: 15vw;
+        height: 15vw;
+        margin-bottom: 1.25%;
+    }
+
+    .links:nth-child(1)::before{
+        font-family: "Font Awesome 5 Free"; font-weight: 900; content: "\f015"; font-size: 1.8pc;
+        position: absolute;
+        left: 10%;
+        color: gold;
+    }
+    .links:nth-child(1) a{
+        color: gold;
+    }
+    .links:nth-child(2)::before{
+        font-family: "Font Awesome 5 Free"; font-weight: 900; content: "\f562"; font-size: 1.8pc;
+        position: absolute;
+        left: 10%;
+        color: white;
+    }
+    .links:nth-child(3)::before{
+        font-family: "Font Awesome 5 Free"; font-weight: 900; content: "\e592"; font-size: 1.8pc;
+        position: absolute;
+        left: 10%;
+        color: white;
+    }
+    .links:nth-child(4)::before{
+        font-family: "Font Awesome 5 Free"; font-weight: 900; content: "\f15c"; font-size: 1.8pc;
+        position: absolute;
+        left: 12%;
+        color: white;
+    }
+}
+
+::-webkit-scrollbar{
+    display: none;
+}
+
+@keyframes navAnimator {
+    0%{
+        height: 0px;
+    }
+    100%{
+        height: 25vh;
+    }
+}
+@keyframes navAnimatorRemove {
+    0%{
+        height: 25vh;
+    }
+    100%{
+        height: 0;
+    }
+}
+
+.navcss{
+    animation: navAnimator 0.3s ease-in-out 1;
+    animation-fill-mode: forwards;
+}
+.navcssRemove{
+    animation: navAnimatorRemove 0.3s ease-in-out 1;
+    animation-fill-mode: forwards;
+}

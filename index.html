@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Delivery</title>
+    <link rel="stylesheet" href="makeup.css">
+    <link rel="shortcut icon" href="images/foodLogo.ico" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/477be79e6e.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <nav id="navbar">
+        <img src="images/foodLogo.png" id="foodLogo">
+        <!-- <ul id="unorderedList">
+            <li id="home" class="links"><a href="#">Home</a></li>
+            <li id="ourServices" class="links"><a href="#ourServicesDetails">Our Services</a></li>
+            <li id="ourClients" class="links"><a href="#ourClientsDetails">Our Clients</a></li>
+            <li id="feedback" class="links"><a href="#feebackDetails">Feedback</a></li>
+        </ul> -->
+        <div id="menuLogo" onclick="menuClicked()">
+            <div class="bars" id="bar-1"></div>
+            <div class="bars" id="bar-2"></div>
+            <div class="bars" id="bar-3"></div>
+            <div class="bars" id="bar-4"></div>
+            <div class="bars" id="bar-5"></div>
+            <div class="bars" id="bar-6"></div>
+        </div>
+    </nav>
+    <div id="siteDescription">
+        <ul id="unorderedList">
+            <li id="home" class="links"><a href="#">Home</a></li>
+            <li id="ourServices" class="links"><a href="#ourServicesDetails">Our Services</a></li>
+            <li id="ourClients" class="links"><a href="#ourClientsDetails">Our Clients</a></li>
+            <li id="feedback" class="links"><a href="#feebackDetails">Feedback</a></li>
+        </ul>
+        <!-- <button id="orderNow">Order Food</button> -->
+    </div>
+
+    <div id="ourServicesDetails">
+        <span id="ourServiceDetailsHeading">Our Services</span>
+        <div id="ourServiceDetailsContent">
+            <div class="ourServiceDetailsContentHeart">
+                <img class="ourServiceDetailsContentHeartImage" src="images/normalorder.jpg" alt="">
+                <span class="ourServiceDetailsContentHeartTitle">Normal Order</span>
+                <span class="ourServiceDetailsContentHeartPara">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nihil tempora veritatis aut ullam, saepe, consequuntur necessitatibus sed, quidem possimus expedita voluptates ipsum quod! Aliquid est neque itaque, illum adipisci impedit corporis rerum cumque quod amet explicabo, dolorum saepe ratione aperiam sequi? Adipisci fuga rerum, voluptas porro aliquam ad architecto magnam?</span>
+            </div>
+            <div class="ourServiceDetailsContentHeart">
+                <img class="ourServiceDetailsContentHeartImage" src="images/bulkorder.jpg" alt="">
+                <span class="ourServiceDetailsContentHeartTitle">Bulk Order</span>
+                <span class="ourServiceDetailsContentHeartPara">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nihil tempora veritatis aut ullam, saepe, consequuntur necessitatibus sed, quidem possimus expedita voluptates ipsum quod! Aliquid est neque itaque, illum adipisci impedit corporis rerum cumque quod amet explicabo, dolorum saepe ratione aperiam sequi? Adipisci fuga rerum, voluptas porro aliquam ad architecto magnam?</span>
+            </div>
+            <div class="ourServiceDetailsContentHeart">
+                <img class="ourServiceDetailsContentHeartImage" src="images/homedelivery.png" alt="">
+                <span class="ourServiceDetailsContentHeartTitle">Home Delivery</span>
+                <span class="ourServiceDetailsContentHeartPara">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nihil tempora veritatis aut ullam, saepe, consequuntur necessitatibus sed, quidem possimus expedita voluptates ipsum quod! Aliquid est neque itaque, illum adipisci impedit corporis rerum cumque quod amet explicabo, dolorum saepe ratione aperiam sequi? Adipisci fuga rerum, voluptas porro aliquam ad architecto magnam?</span>
+            </div>
+        </div>
+    </div>
+
+    <div id="ourClientsDetails">
+        <span id="ourClientsDetailsHeading">Our Clients</span>
+        <div id="ourClientsDetailsHeart">
+            <img class="ourClientsDetailsHeartImage" src="images/apple.png" alt="">
+            <img class="ourClientsDetailsHeartImage" src="images/hp.png" alt="">
+            <img class="ourClientsDetailsHeartImage" src="images/skype.png" alt="">
+            <img class="ourClientsDetailsHeartImage" src="images/microsoft.png" alt="">
+        </div>
+    </div>
+
+    <div id="feebackDetails">
+        <span id="feedbackDetailsHeading">Feedback</span>
+        <div id="feedbackForm">
+            <input type="text" class="textBoxes" placeholder="Enter your name">
+            <input type="text" class="textBoxes" placeholder="Enter your address">
+            <input type="email" class="textBoxes" placeholder="Enter your email address">
+            <textarea class="textArea" placeholder="Write your reviews"></textarea>
+            <button id="submit">SUBMIT</button>
+        </div>
+    </div>
+</body>
+<!-- <script src="functionality.js"></script> -->
+<script src="node.js"></script>
+</html>
